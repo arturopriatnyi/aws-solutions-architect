@@ -36,3 +36,11 @@ Each *region has many availability zones* (usually 3, min is 2, max is 6). Examp
 - They’re separate from each other, so that they’re isolated from disasters.
 - They’re connected with high bandwidth, ultra-low latency networking.
 
+### Points of Presence (Edge Locations)
+Amazon has *216 Points of Presence (205 Edge Locations & || Regional Caches) in 84 cities across 42 countries*. Content is delivered to end users with *lower latency*.
+
+<p align="center">
+  <img width="650" height="300" src="https://user-images.githubusercontent.com/68676177/178140428-05a60948-8549-4353-ba1e-96233b211c2f.png">
+</p>
+
+
