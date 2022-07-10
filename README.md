@@ -52,3 +52,13 @@ Amazon has *216 Points of Presence (205 Edge Locations & || Regional Caches) in 
 - It is **Global**.
 - **Root account** created by default, shouldn’t be used or shared.
 - **Users** are people within your organisation, and can be **grouped**.
+
+### Users & Groups
+
+**User** represents one user in your organisation. User can be grouped together in **Groups**.
+<p align="center">
+  <img width="800" height="200" src="https://user-images.githubusercontent.com/68676177/178142768-d70fbb51-2b3d-424d-bc2b-80aea0dc3b50.png">
+</p>
+
+- Groups only contain users, not other groups.
+- Users don’t have to belong to a group, and user can belong to multiple groups.
