@@ -43,4 +43,12 @@ Amazon has *216 Points of Presence (205 Edge Locations & || Regional Caches) in 
   <img width="650" height="300" src="https://user-images.githubusercontent.com/68676177/178140428-05a60948-8549-4353-ba1e-96233b211c2f.png">
 </p>
 
+## IAM
+**IAM** is **Identity and Access Management** service.
+<p align="center">
+  <img width="200" height="200" src="https://user-images.githubusercontent.com/68676177/178140709-c31ee508-855b-456f-acdf-5187f7080f8f.png">
+</p>
 
+- It is **Global**.
+- **Root account** created by default, shouldn’t be used or shared.
+- **Users** are people within your organisation, and can be **grouped**.
