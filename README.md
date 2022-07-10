@@ -24,3 +24,15 @@ How to choose an AWS Region?
 - **Proximity to customers:** reduced latency.
 - **Available services within a Region:** new services and new features aren’t available in every Region.
 - **Pricing:** pricing varies region to region and is transparent in the service pricing page.
+
+### Availability Zones (AZ)
+
+Each *region has many availability zones* (usually 3, min is 2, max is 6). Example:
+<p align="center">
+  <img width="350" height="300" src="https://user-images.githubusercontent.com/68676177/178140056-02275227-afe8-4fa6-9158-f31c1c898683.png">
+</p>
+
+- Each availability zone is one or more discrete data centers with redundant power, networking and connectivity.
+- They’re separate from each other, so that they’re isolated from disasters.
+- They’re connected with high bandwidth, ultra-low latency networking.
+
