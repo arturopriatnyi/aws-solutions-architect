@@ -99,3 +99,16 @@ Statement consists of:
 - **Action**: list of actions this policy allows or denies
 - **Resource**: list of resources to which the actions applied to
 - **Condition**: conditions for when this policy is in effect (*optional*)
+
+### Password policy
+
+Strong passwords make your account more secure. In AWS, you can setup a password policy:
+- Set a *minimum password length*
+- Require *specific character types*:
+  - including *uppercase letters*
+  - *lowercase letters*
+  - *numbers*
+  - *non-alphanumeric* characters
+- Allow all IAM users to *change their own passwords*
+- *Require users to change their password* after some time (password expiration)
+- *Prevent password re-use*
