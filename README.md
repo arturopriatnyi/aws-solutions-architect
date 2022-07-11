@@ -75,3 +75,27 @@ Amazon has *216 Points of Presence (205 Edge Locations & || Regional Caches) in 
 - In AWS you apply **the least privilege principle**: don’t give more permissions than a user needs.
 
 Using root account is **dangerous** because it has all the permissions and another admin account should be created and used with **subset of root user permissions**.
+
+### Policies
+**Policy** is an object that, when associated with an identity or resource, *defines their permissions*.
+
+<p align="center">
+  <img width="350" height="300" src="https://user-images.githubusercontent.com/68676177/178304824-e382a864-4e3d-42a4-9ce9-f79c8ff99e99.png">
+</p>
+
+Policy can be assigned to a group and individual user - in this case it’s called **inline**.
+<p align="center">
+  <img width="700" height="300" src="https://user-images.githubusercontent.com/68676177/178303681-3f88e330-0d72-4643-b8de-b8e6d569a75e.png">
+</p>
+
+Policy consists of:
+- **Version**: policy language version, *always include "2012-10-17"*
+- **Id**: identifier for the policy (*optional*)
+- **Statement**: one or more individual statements (*required*)
+
+Statement consists of:
+- **Sid**: an identifier for the statement (*optional*)
+- **Effect**: whether the statement allows or denies access (*Allow*, *Deny*)
+- **Action**: list of actions this policy allows or denies
+- **Resource**: list of resources to which the actions applied to
+- **Condition**: conditions for when this policy is in effect (*optional*)
