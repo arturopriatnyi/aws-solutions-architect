@@ -112,3 +112,20 @@ Strong passwords make your account more secure. In AWS, you can setup a password
 - Allow all IAM users to *change their own passwords*
 - *Require users to change their password* after some time (password expiration)
 - *Prevent password re-use*
+
+### Multi Factor Authentication - MFA
+
+Main benefit of MFA is that if password is stolen or hacked, the account is not compromised.
+- Users have access to your account and can possibly change configurations or delete resources in your AWS account.
+- **You want to protect your Root Accounts and IAM users.**
+- MFA = password *you know* + security device *you own*.
+
+<p align="center">
+  <img width="700" height="100" src="https://user-images.githubusercontent.com/68676177/178996867-95fae309-c68b-4c6d-b380-68e30c752e3e.png">
+</p>
+
+MFA devices options in AWS:
+- Virtual MFA device (i. e. "Google Authenticator", "Authy"). Providers support for multiple tokens on a single device.
+- Universal 2nd Factor (U2F) Security Key (i. e. "Yubikey" by Yubico). Support for multiple root and IAM users using a single sucurity key.
+- Hardware Key Fob MFE Device provided by Gemalto.
+- Hardware Key Fob MFA device for AWS GovCloud (US) provided by SurePassID.
